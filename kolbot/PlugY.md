@@ -24,6 +24,7 @@
 
 4. Run the PatchD2File.exe and select Yes.
 
+5. In PlugY.ini make sure to set ActiveBigStash=1.
 ---
 
 ## Configuring D2BS and Kolbot for PlugY single player.
@@ -33,8 +34,10 @@
     a) Go to \d2bs\kolbot\libs\core and open Config.js
 
     b) Find and set the line PlugYStash: true,
+   
+    c) In PlugY.ini make sure to set ActiveBigStash=1.
 
-2. To set PlugY stash to enabled only for a certain character:
+3. To set PlugY stash to enabled only for a certain character:
 
     a) Go to \d2bs\kolbot\libs\config\yourcharacterconfig.js
 
@@ -43,3 +46,5 @@
 4. In D2Bot.exe make sure the path is set to Game.exe and not PlugY.exe!
 
 5. In-game make sure the first 2 pages of your PlugY stash are empty.
+
+NOTE: At the momemnt because kolbot puts your cube in the stash you HAVE to disable any operation with the cube (cubing of gems, runes, crafting etc.) in your Kolbot character config file 
